@@ -1,0 +1,68 @@
+body
+{
+	background-image:url("IMAGES/bamboo.JPG");
+	width:100%;
+    background-color:green;
+}
+h1
+{
+text-shadow:brown 2px 2px;
+text-align:center;
+font-size:60px;
+color:white;
+}
+h4
+{
+background-color:black;
+margin-left:130px;
+margin-right:150px;
+text-align:center;
+color:white;
+text-shadow:brown 2px 2px;
+font-family:vardana;
+}
+#pgcontainer
+{
+	text-shadow:brown 1px 1px;
+	background-color:white;
+	-webkit-animation-name:second;
+-webkit-animation-duration:;
+-webkit-animation-delay:-2s;
+-webkit-animation-iteration-count:infinite;
+animation-name:second;
+animation-duration:4s;
+animation-delay:-2s;
+}
+@-webkit-keyframes second
+{
+from{background-color:orange;}
+to{background-color:green;}
+}
+@keyframes second
+{
+from{background-color:orange;}
+to{background-color:green;}
+}
+#first
+{
+margin-top:100px;
+margin-left:450px;
+margin-right:450px;
+padding-top:10px;
+padding-bottom:10px;
+background-color:green;
+-webkit-animation-name:first;
+-webkit-animation-duration:2s;
+animation-name:first;
+animation-duration:2s;
+}
+@-webkit-keyframes first
+{
+from{background-color:orange;}
+to{background-color:green;}
+}
+@keyframes first
+{
+from{background-color:orange;}
+to{background-color:green;}
+}

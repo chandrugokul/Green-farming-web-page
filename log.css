@@ -1,0 +1,38 @@
+body
+{
+	background-color:lightblue;
+}
+form
+{
+	border:3px solid #f1f1f1;
+}
+input[type=text],
+input[type=password]
+{
+	width:100%;
+	margin:8px 0;
+	display:inline-block;
+	border:1px solid #ccc;
+	box-sizing=border-box;
+}
+.modal
+{
+	display:none;
+	position:fixed;
+	padding-top:60px;
+}
+.animate
+{
+	-webkit-keyframes animatezoom{
+	from{-webkit-transform:scale(0)}
+	to{-webkit-transform:scale(1)}
+	}
+}
+@-webkit-keyframes animatezoom{
+from{-webkit-transform;scale(0)}
+to{-webkit-transform:scale(1)}
+}
+@keyframes animatezoom{
+from{-webkit-transform;scale(0)}
+to{-webkit-transform:scale(1)}
+}

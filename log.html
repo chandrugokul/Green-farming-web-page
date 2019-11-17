@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>login</title>
+<meta name="viewport"
+content="width=device-width,inital-scale=1">
+<link rel="stylesheet" type="text/css" href="log.css">
+</head>
+<body>
+<button
+onclick="document.getElementById('idno').style.display='block'"style="width:auto";>
+login
+</button>
+<div id="idno" class="modal">
+<form action="log.php">
+<div class ="container">
+<label for ="uname">
+<b>username</b>
+</label>
+<input type="text" placeholder="Enter username" name="uname" required><br><br>
+<label for="psw">
+<b>password</b>
+</label>
+<input type="password" placeholder="Enter password" name="psw" required><br><br>
+<button type="submit">LOGIN</button>
+<label>
+<input type="checkbox" checked="checked" name ="remember">remember me
+</label>
+</div>
+<div id="clc" class ="container">
+<button type="button" name="cancelbtn" onclick="document.getElementById('cancelbtn').style.display='none'">cancel
+</button>
+</div>
+</form>
+</div>
+<script>
+var modal=document.getElementById('idno');
+var container=document.getElementById('clc');
+window.click=function(event)
+{
+if(event.target==modal)
+{
+modal.style.display="none";
+}
+}
+</script>
+</body>
+</html>

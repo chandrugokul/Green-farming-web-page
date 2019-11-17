@@ -1,0 +1,59 @@
+body
+{
+	background-image:url("IMAGES/bamboo.JPG");
+	background-color:lightgreen;
+}
+h1
+{
+	color:white;
+	margin-top:100px;
+	text-align:center;
+}
+#cd
+{
+	margin-left:400px;
+	margin-right:400px;
+	text-align:center;
+	padding-bottom:10px;
+	background-color:green;
+	-webkit-animation-name:cd;
+    -webkit-animation-duration:2s;
+    animation-name:cd;
+    animation-duration:2s;
+}
+@-webkit-keyframes cd
+{
+from{background-color:orange;}
+to{background-color:green;}
+}
+@keyframes cd
+{
+from{background-color:orange;}
+to{background-color:green;}
+}
+#frmcontain
+{
+	border:2px solid #f1f1f1;
+	margin-left:20px;
+	margin-right:20px;
+	
+	text-align:center;
+}
+b
+{
+	color:white;
+	font-size:20px;
+}
+input
+{
+	background-color:lightblue;
+	text-align:center;
+}
+#box
+{
+    border:100px white;
+}
+button
+{
+	background-color:lightblue;
+}
